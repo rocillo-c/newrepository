@@ -68,6 +68,20 @@ sequence <- seq(1, 100)
 print(sequence)
 ```
 
-8.2
+8.2 Numbers from 20 - 60
+```{r}
+ n <- seq(20, 60)
+print(n)
+```
+
+8.3 Mean of numbers from 20 to 60
+```{r}
+  number_Sequence <- seq(20, 60)
+
+mean_number <- mean(number_Sequence)
+print(mean_number)
+```
+
+
 
 
