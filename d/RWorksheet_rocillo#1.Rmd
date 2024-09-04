@@ -1,0 +1,47 @@
+---
+title: "RWorksheet_rocillo#1"
+author: "Cassandra Jielin Rocillo"
+date: "2024-09-04"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+1. How many data points?
+```{r}
+ age <- c(34, 28, 22, 36, 27, 18, 52, 39, 42, 29, 35, 31, 27, 22, 37, 34, 19, 20, 57, 49, 50,37, 46, 25, 17, 37, 42, 53, 41, 51, 35, 24, 33, 41)
+```
+
+2. Find the reciprocal of the values for age. 
+```{r}
+reciprocal_age <- 1 / age
+library("MASS")
+fractions(reciprocal_age)
+```
+3. Assign also new_age <- c(age, 0, age).
+  What happen to the new_age?
+```{r}
+new_age <- c(age, 0, age)
+new_age
+```
+4. Sort the values for age.
+```{r}
+sorted_age <- c(sort(age))
+sorted_age
+```
+
+5.Find the minimum and maximum value for age. 
+```{r}
+min_age <- c(min(age))
+max_age <- c(max(age))
+```
+
+6. How many data points
+```{r}
+  data <- c(2.4, 2.8, 2.1, 2.5, 2.4, 2.2, 2.5, )
+```
+
+  
