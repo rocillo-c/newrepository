@@ -81,7 +81,32 @@ print(n)
 mean_number <- mean(number_Sequence)
 print(mean_number)
 ```
+8.4 Sum of the numbers from 51 to 91
+```{r}
+numbersum <- sum(seq(51-91))
+numbersum
+```
 
 
+8.5 Integers from 1 to 1,000
+```{r}
+sequence <- 1:1000
+print(sequence)
+```
 
+a. How manny data points from 8.1 to 8.4
+```{r}
+l1 <- length(sequence)
+l2 <- length(numbers)
+l3 <- length(mean_number)
+l4 <- length(numbersum)
+
+sum(l1 + l2 + l3 + l4)
+```
+
+
+b. Write the R code and its output from 8.1 to 8.4 
+```{r}
+sequence <- sequence(1:100)
+```
 
